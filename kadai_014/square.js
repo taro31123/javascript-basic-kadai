@@ -1,5 +1,5 @@
-// 関数square引数numで出力
+//関数square引数num定義 戻り値を利用して結果出力
 const square = (num) => {
-  console.log(num * num);
+  return num * num;
 };
-square(10);
+console.log(square(10));
